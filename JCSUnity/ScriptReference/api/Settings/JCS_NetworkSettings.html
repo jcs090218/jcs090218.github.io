@@ -1,0 +1,72 @@
+<p>JCS_NetworkSettings</p>
+<p>Store all the network settings.</p>
+<h2 id="variables">Variables</h2>
+<table>
+<thead>
+<tr>
+<th id="name" style="text-align:left;">Name</th>
+<th id="description" style="text-align:left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">CLIENT_MODE</td>
+<td style="text-align:left;">Current mode this client in, should be update by the server!</td>
+</tr>
+<tr>
+<td style="text-align:left;">ON_SWITCH_SERVER</td>
+<td style="text-align:left;">On switching the server?</td>
+</tr>
+<tr>
+<td style="text-align:left;">FORCE_SWITCH_SERVER</td>
+<td style="text-align:left;">Flag to check if is force switching the server.</td>
+</tr>
+<tr>
+<td style="text-align:left;">ONLINE_MODE</td>
+<td style="text-align:left;">Is the current game with online mode active?</td>
+</tr>
+<tr>
+<td style="text-align:left;">PROTOCAL_TYPE</td>
+<td style="text-align:left;">Type of the client protocal.</td>
+</tr>
+<tr>
+<td style="text-align:left;">HOST_NAME</td>
+<td style="text-align:left;">Client hostname.</td>
+</tr>
+<tr>
+<td style="text-align:left;">PORT</td>
+<td style="text-align:left;">Client port.</td>
+</tr>
+<tr>
+<td style="text-align:left;">CHANNEL_COUNT</td>
+<td style="text-align:left;">Channel count in this game.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="functions">Functions</h2>
+<table>
+<thead>
+<tr>
+<th id="name" style="text-align:left;">Name</th>
+<th id="description" style="text-align:left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">CreateNetwork</td>
+<td style="text-align:left;">Create socket and connect to the target hostname and target port</td>
+</tr>
+<tr>
+<td style="text-align:left;">CloseSocket</td>
+<td style="text-align:left;">Close the current socket the safe way.</td>
+</tr>
+<tr>
+<td style="text-align:left;">GetGameSocket</td>
+<td style="text-align:left;">Returns the game client socket.</td>
+</tr>
+<tr>
+<td style="text-align:left;">SwitchServer</td>
+<td style="text-align:left;">Switch the server.</td>
+</tr>
+</tbody>
+</table>

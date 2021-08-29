@@ -1,0 +1,136 @@
+<h1 id="jcs_dialoguesystem">JCS_DialogueSystem</h1>
+<p>Dialogue system core implementation.</p>
+<h2 id="variables">Variables</h2>
+<table>
+<thead>
+<tr>
+<th id="name" style="text-align:left;">Name</th>
+<th id="description" style="text-align:left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">callback_dispose</td>
+<td style="text-align:left;">Callback when successfully dispose the dialogue.</td>
+</tr>
+<tr>
+<td style="text-align:left;">mMakeHoverSelect</td>
+<td style="text-align:left;">If the mouse hover then select the selection.</td>
+</tr>
+<tr>
+<td style="text-align:left;">mCenterImage</td>
+<td style="text-align:left;">Image displayed at the center.</td>
+</tr>
+<tr>
+<td style="text-align:left;">mLeftImage</td>
+<td style="text-align:left;">Image displayed at the left.</td>
+</tr>
+<tr>
+<td style="text-align:left;">mRightImage</td>
+<td style="text-align:left;">Image displayed at the right.</td>
+</tr>
+<tr>
+<td style="text-align:left;">mNameTag</td>
+<td style="text-align:left;">Current name tag.</td>
+</tr>
+<tr>
+<td style="text-align:left;">mScrollTime</td>
+<td style="text-align:left;">Speed of scrolling the text.</td>
+</tr>
+<tr>
+<td style="text-align:left;">mButtonSelectionGroup</td>
+<td style="text-align:left;">Make control from the gamepad.</td>
+</tr>
+<tr>
+<td style="text-align:left;">mActiveSound</td>
+<td style="text-align:left;">Sound plays when active dialogue.</td>
+</tr>
+<tr>
+<td style="text-align:left;">mDisposeSound</td>
+<td style="text-align:left;">Sound plays when dispose dialogue.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="functions">Functions</h2>
+<table>
+<thead>
+<tr>
+<th id="name" style="text-align:left;">Name</th>
+<th id="description" style="text-align:left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">ActiveDialogue</td>
+<td style="text-align:left;">Start the dialogue, in other word same as start a conversation.</td>
+</tr>
+<tr>
+<td style="text-align:left;">SendChoice</td>
+<td style="text-align:left;">Send a choice to current status.</td>
+</tr>
+<tr>
+<td style="text-align:left;">SendNext</td>
+<td style="text-align:left;">Next button is the only option for current status.</td>
+</tr>
+<tr>
+<td style="text-align:left;">SendNextPrev</td>
+<td style="text-align:left;">Current status will be next and prev control/options.</td>
+</tr>
+<tr>
+<td style="text-align:left;">SendOk</td>
+<td style="text-align:left;">Okay button for only option.</td>
+</tr>
+<tr>
+<td style="text-align:left;">SendYesNo</td>
+<td style="text-align:left;">Yes/No options for current status.</td>
+</tr>
+<tr>
+<td style="text-align:left;">SendSimple</td>
+<td style="text-align:left;">Only exit button will be the only option.</td>
+</tr>
+<tr>
+<td style="text-align:left;">SendAcceptDecline</td>
+<td style="text-align:left;">Accept/Decline options.</td>
+</tr>
+<tr>
+<td style="text-align:left;">SendEmpty</td>
+<td style="text-align:left;">Send Empty option, expect selections take over it.</td>
+</tr>
+<tr>
+<td style="text-align:left;">Dispose</td>
+<td style="text-align:left;">Call this to end the dialogue status.</td>
+</tr>
+<tr>
+<td style="text-align:left;">ResetStats</td>
+<td style="text-align:left;">Reset all dialogue system.</td>
+</tr>
+<tr>
+<td style="text-align:left;">WorldMessage</td>
+<td style="text-align:left;">Send a world message, online mode only.</td>
+</tr>
+<tr>
+<td style="text-align:left;">SendNameTag</td>
+<td style="text-align:left;">Set the current status name tag.</td>
+</tr>
+<tr>
+<td style="text-align:left;">SendCenterImage</td>
+<td style="text-align:left;">Set the sprite to the image component. (Center)</td>
+</tr>
+<tr>
+<td style="text-align:left;">SendLeftImage</td>
+<td style="text-align:left;">Set the sprite to the image component. (Left)</td>
+</tr>
+<tr>
+<td style="text-align:left;">SendRightImage</td>
+<td style="text-align:left;">Set the sprite to the image component. (Right)</td>
+</tr>
+<tr>
+<td style="text-align:left;">IncPage</td>
+<td style="text-align:left;">Increament one from page.</td>
+</tr>
+<tr>
+<td style="text-align:left;">DecPage</td>
+<td style="text-align:left;">Decreament one from page.</td>
+</tr>
+</tbody>
+</table>

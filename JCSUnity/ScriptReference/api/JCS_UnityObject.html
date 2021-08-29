@@ -1,0 +1,114 @@
+<h1 id="jcs_unityobject">JCS_UnityObject</h1>
+<p>Interface handle between multiple type of Unity Engine's declare type of gameobject.<br />
+This class makes sure each gameobject will still use the same variable name.</p>
+<p>For instance, if you want to enable/disable an gameobject. By using this interface<br />
+you do not need to know what exactly the component you are trying to enable<br />
+/disable. You can just call <code>GetComponent&lt;JCS_UnityObject&gt;().LocalEnable = true;</code><br />
+instead of trying to identify the component type and change the specific variable<br />
+from its component.</p>
+<h2 id="variables">Variables</h2>
+<table>
+<thead>
+<tr>
+<th id="name" style="text-align:left;">Name</th>
+<th id="description" style="text-align:left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">LocalType</td>
+<td style="text-align:left;">Component of this current type.</td>
+</tr>
+<tr>
+<td style="text-align:left;">LocalTransform</td>
+<td style="text-align:left;">Either regular transform or recttransform base on the type.</td>
+</tr>
+<tr>
+<td style="text-align:left;">Position</td>
+<td style="text-align:left;">Position of this gameobject.</td>
+</tr>
+<tr>
+<td style="text-align:left;">LocalPosition</td>
+<td style="text-align:left;">Local position of this gameobject.</td>
+</tr>
+<tr>
+<td style="text-align:left;">EulerAngles</td>
+<td style="text-align:left;">Euler angles of this gameobject.</td>
+</tr>
+<tr>
+<td style="text-align:left;">LocalEulerAngles</td>
+<td style="text-align:left;">Local euler angles of this gameobject.</td>
+</tr>
+<tr>
+<td style="text-align:left;">LocalScale</td>
+<td style="text-align:left;">Local scale of this gameobject.</td>
+</tr>
+<tr>
+<td style="text-align:left;">LocalEnabled</td>
+<td style="text-align:left;">Enabled/disable this gameobject.</td>
+</tr>
+<tr>
+<td style="text-align:left;">LocalColor</td>
+<td style="text-align:left;">Color of this gameobject.</td>
+</tr>
+<tr>
+<td style="text-align:left;">LocalAlpha</td>
+<td style="text-align:left;">Alpha channel of this gameobject.</td>
+</tr>
+<tr>
+<td style="text-align:left;">LocalRed</td>
+<td style="text-align:left;">Red channel of this gameobject.</td>
+</tr>
+<tr>
+<td style="text-align:left;">LocalGreen</td>
+<td style="text-align:left;">Green channel of this gameobject.</td>
+</tr>
+<tr>
+<td style="text-align:left;">LocalBlue</td>
+<td style="text-align:left;">Blue channel of this gameobject.</td>
+</tr>
+<tr>
+<td style="text-align:left;">LocalMainTexture</td>
+<td style="text-align:left;">Main texture of this gameobject.</td>
+</tr>
+<tr>
+<td style="text-align:left;">LocalSprite</td>
+<td style="text-align:left;">Sprite of this gameobject.</td>
+</tr>
+<tr>
+<td style="text-align:left;">LocalIsVisible</td>
+<td style="text-align:left;">Is the gameobject visible? Or set visible.</td>
+</tr>
+<tr>
+<td style="text-align:left;">LocalFlipX</td>
+<td style="text-align:left;">Flip the gameobject in x-axis.</td>
+</tr>
+<tr>
+<td style="text-align:left;">LocalFlipY</td>
+<td style="text-align:left;">Flip the gameobject in y-axis.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="functions">Functions</h2>
+<table>
+<thead>
+<tr>
+<th id="name" style="text-align:left;">Name</th>
+<th id="description" style="text-align:left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">UpdateUnityData</td>
+<td style="text-align:left;">Identify the object itself. See <a href="?page=Enums_sl_JCS_UnityObjectType">JCS_UnityObjectType</a></td>
+</tr>
+<tr>
+<td style="text-align:left;">GetObjectType</td>
+<td style="text-align:left;">Returns the type of this unity object.</td>
+</tr>
+<tr>
+<td style="text-align:left;">IsObjectType</td>
+<td style="text-align:left;">Check if TYPE is current object type.</td>
+</tr>
+</tbody>
+</table>

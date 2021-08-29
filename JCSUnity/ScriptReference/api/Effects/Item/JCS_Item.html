@@ -1,0 +1,72 @@
+<h1 id="jcs_item">JCS_Item</h1>
+<p>Base class for all the item subclasses.</p>
+<h2 id="variables">Variables</h2>
+<table>
+<thead>
+<tr>
+<th id="name" style="text-align:left;">Name</th>
+<th id="description" style="text-align:left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">mMustBeActivePlayer</td>
+<td style="text-align:left;">Must be an active player in order to pick this item up.</td>
+</tr>
+<tr>
+<td style="text-align:left;">mPickKey</td>
+<td style="text-align:left;">Key to pick this item up.</td>
+</tr>
+<tr>
+<td style="text-align:left;">mPickByMouseDown</td>
+<td style="text-align:left;">Pick up the item by mouse.</td>
+</tr>
+<tr>
+<td style="text-align:left;">mAutoPickColliderTouched</td>
+<td style="text-align:left;">When player hit this object pick it up automatically.</td>
+</tr>
+<tr>
+<td style="text-align:left;">mAutoPickWhileCan</td>
+<td style="text-align:left;">Automatically pick it up while this item can be picked up.</td>
+</tr>
+<tr>
+<td style="text-align:left;">mPlayOneShotWhileNotPlayingForPickSound</td>
+<td style="text-align:left;">Play one shot while not playing any other sound.</td>
+</tr>
+<tr>
+<td style="text-align:left;">mPickSound</td>
+<td style="text-align:left;">Sound played when you pick up this item.</td>
+</tr>
+<tr>
+<td style="text-align:left;">mPlayOneShotWhileNotPlayingForEffectSound</td>
+<td style="text-align:left;">Play one shot while not playing any other sound.</td>
+</tr>
+<tr>
+<td style="text-align:left;">mEffectSound</td>
+<td style="text-align:left;">Sound played when you pick up this item.</td>
+</tr>
+<tr>
+<td style="text-align:left;">mTweener</td>
+<td style="text-align:left;">Make item tween to the destination.</td>
+</tr>
+<tr>
+<td style="text-align:left;">mDestinationDestroy</td>
+<td style="text-align:left;">Destroy when reach the destination.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="functions">Functions</h2>
+<table>
+<thead>
+<tr>
+<th id="name" style="text-align:left;">Name</th>
+<th id="description" style="text-align:left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">Pick</td>
+<td style="text-align:left;">Pick the item up.</td>
+</tr>
+</tbody>
+</table>

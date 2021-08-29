@@ -1,0 +1,96 @@
+<h1 id="jcs_2danimation">JCS_2DAnimation</h1>
+<p>Handle frame by frame animation in the simple way.</p>
+<h2 id="variables">Variables</h2>
+<table>
+<thead>
+<tr>
+<th id="name" style="text-align:left;">Name</th>
+<th id="description" style="text-align:left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">donePlayingAnimCallback</td>
+<td style="text-align:left;">Callback when done playing animation.</td>
+</tr>
+<tr>
+<td style="text-align:left;">playFrameCallback</td>
+<td style="text-align:left;">Callback when play the frame.</td>
+</tr>
+<tr>
+<td style="text-align:left;">mStartingFrame</td>
+<td style="text-align:left;">Starting frame index.</td>
+</tr>
+<tr>
+<td style="text-align:left;">Active</td>
+<td style="text-align:left;">Current animaion playing?</td>
+</tr>
+<tr>
+<td style="text-align:left;">PlayOnAwake</td>
+<td style="text-align:left;">Play the animation on awake time?</td>
+</tr>
+<tr>
+<td style="text-align:left;">Loop</td>
+<td style="text-align:left;">Does the animation loop?</td>
+</tr>
+<tr>
+<td style="text-align:left;">NullSprite</td>
+<td style="text-align:left;">Sprite displayed when the animation stopped.</td>
+</tr>
+<tr>
+<td style="text-align:left;">NullSpriteAfterDonePlayingAnim</td>
+<td style="text-align:left;">Set the sprite to null after done playing the animation.</td>
+</tr>
+<tr>
+<td style="text-align:left;">FramePerSec</td>
+<td style="text-align:left;">FPS for the animation to play.</td>
+</tr>
+<tr>
+<td style="text-align:left;">mAnimFrames</td>
+<td style="text-align:left;">Drag all the frame here, in order.</td>
+</tr>
+<tr>
+<td style="text-align:left;">AnimationTimeProduction</td>
+<td style="text-align:left;">How fast the animation plays.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="functions">Functions</h2>
+<table>
+<thead>
+<tr>
+<th id="name" style="text-align:left;">Name</th>
+<th id="description" style="text-align:left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">UpdateMaxFrame</td>
+<td style="text-align:left;">Update the maxinum frame count from the animation frame sequence.</td>
+</tr>
+<tr>
+<td style="text-align:left;">Play</td>
+<td style="text-align:left;">Play the animation in current frame.</td>
+</tr>
+<tr>
+<td style="text-align:left;">Pause</td>
+<td style="text-align:left;">Pause the animation by frame?</td>
+</tr>
+<tr>
+<td style="text-align:left;">Stop</td>
+<td style="text-align:left;">Stop the animation, and set the sprite to null.</td>
+</tr>
+<tr>
+<td style="text-align:left;">Replay</td>
+<td style="text-align:left;">Play animation from the start of the frame.</td>
+</tr>
+<tr>
+<td style="text-align:left;">PlayFrame</td>
+<td style="text-align:left;">Set the current playing frame by index.</td>
+</tr>
+<tr>
+<td style="text-align:left;">PlayNullFrame</td>
+<td style="text-align:left;">Play the animation as null frame.</td>
+</tr>
+</tbody>
+</table>

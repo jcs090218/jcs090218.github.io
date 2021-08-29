@@ -1,0 +1,136 @@
+<h1 id="jcs_particlesystem">JCS_ParticleSystem</h1>
+<p>Particle System thats spawns <code>JCS_Particle</code> object.</p>
+<h2 id="variables">Variables</h2>
+<table>
+<thead>
+<tr>
+<th id="name" style="text-align:left;">Name</th>
+<th id="description" style="text-align:left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">mNumOfParticle</td>
+<td style="text-align:left;">Number of particle this particle system hold.</td>
+</tr>
+<tr>
+<td style="text-align:left;">mParticle</td>
+<td style="text-align:left;">Particle you want to spawn.</td>
+</tr>
+<tr>
+<td style="text-align:left;">mActive</td>
+<td style="text-align:left;">Is the particle engine active?</td>
+</tr>
+<tr>
+<td style="text-align:left;">mActiveThread</td>
+<td style="text-align:left;">Active thread pool?</td>
+</tr>
+<tr>
+<td style="text-align:left;">mOrderLayer</td>
+<td style="text-align:left;">What layer should this be render?</td>
+</tr>
+<tr>
+<td style="text-align:left;">mDensity</td>
+<td style="text-align:left;">How much do it range?</td>
+</tr>
+<tr>
+<td style="text-align:left;">mWindSpeed</td>
+<td style="text-align:left;">How much to tilt the particle?</td>
+</tr>
+<tr>
+<td style="text-align:left;">mRandPosX</td>
+<td style="text-align:left;">Randomize the X position.</td>
+</tr>
+<tr>
+<td style="text-align:left;">mRandPosY</td>
+<td style="text-align:left;">Randomize the Y position.</td>
+</tr>
+<tr>
+<td style="text-align:left;">mRandPosZ</td>
+<td style="text-align:left;">Randomize the Z position.</td>
+</tr>
+<tr>
+<td style="text-align:left;">mRandAngleX</td>
+<td style="text-align:left;">Randomize the X rotation.</td>
+</tr>
+<tr>
+<td style="text-align:left;">mRandAngleY</td>
+<td style="text-align:left;">Randomize the Y rotation.</td>
+</tr>
+<tr>
+<td style="text-align:left;">mRandAngleZ</td>
+<td style="text-align:left;">Randomize the Z rotation.</td>
+</tr>
+<tr>
+<td style="text-align:left;">mAlwaysTheSameScale</td>
+<td style="text-align:left;">Apply the scale always the same.</td>
+</tr>
+<tr>
+<td style="text-align:left;">mRandScaleX</td>
+<td style="text-align:left;">Randomize the X scale.</td>
+</tr>
+<tr>
+<td style="text-align:left;">mRandScaleY</td>
+<td style="text-align:left;">Randomize the Y scale.</td>
+</tr>
+<tr>
+<td style="text-align:left;">mRandScaleZ</td>
+<td style="text-align:left;">Randomize the Z scale.</td>
+</tr>
+<tr>
+<td style="text-align:left;">mFreezeX</td>
+<td style="text-align:left;">Freeze the x axis.</td>
+</tr>
+<tr>
+<td style="text-align:left;">mFreezeY</td>
+<td style="text-align:left;">Freeze the y axis.</td>
+</tr>
+<tr>
+<td style="text-align:left;">mFreezeZ</td>
+<td style="text-align:left;">Freeze the z axis.</td>
+</tr>
+<tr>
+<td style="text-align:left;">mDoShotImmediately</td>
+<td style="text-align:left;">Do not process the particle by thread, by main thread.</td>
+</tr>
+<tr>
+<td style="text-align:left;">mSetChild</td>
+<td style="text-align:left;">Set the particles as child?</td>
+</tr>
+<tr>
+<td style="text-align:left;">mSetToSamePositionWhenActive</td>
+<td style="text-align:left;">Everytime active the particle set the position to this transform position.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="functions">Functions</h2>
+<table>
+<thead>
+<tr>
+<th id="name" style="text-align:left;">Name</th>
+<th id="description" style="text-align:left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">StartActive</td>
+<td style="text-align:left;">Start the paritcle engine.</td>
+</tr>
+<tr>
+<td style="text-align:left;">StopActive</td>
+<td style="text-align:left;">Stop the paritcle engine.</td>
+</tr>
+<tr>
+<td style="text-align:left;">PlayOneShot</td>
+<td style="text-align:left;">Active some particle in certain number current frame.</td>
+</tr>
+<tr>
+<td style="text-align:left;">IsParticleEnd</td>
+<td style="text-align:left;">Check if no particle running?</td>
+</tr>
+<tr>
+<td style="text-align:left;">SpawnParticles</td>
+<td style="text-align:left;">Spawn all particle base on the count.</td>
+</tr>
+</tbody>
+</table>

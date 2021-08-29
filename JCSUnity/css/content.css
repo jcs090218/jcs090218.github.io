@@ -1,0 +1,118 @@
+@charset "UTF-8";
+/**
+ * $File: content.css $
+ * $Date: 2018-10-02 18:46:16 $
+ * $Revision: $
+ * $Creator: Jen-Chieh Shen $
+ * $Notice: See LICENSE.txt for modification and distribution information
+ *                   Copyright © 2018 by Shen, Jen-Chieh $
+ */
+
+/* All the content CSS store here. */
+
+/********************* Others *****************************/
+
+#content ul {
+  padding-inline-start: 20px;
+}
+
+#content li {
+  margin: 0.5%;
+}
+
+#content a {
+  color: #008CC0;
+  text-decoration: none;
+}
+
+/********************* Quote *****************************/
+
+blockquote {
+  color: #6A737D;
+  border-left: 4px solid #DFE2E5;
+  margin: 0px;
+  padding-left: 10px;
+}
+
+/********************* Code Block *****************************/
+
+#content code {
+  display: inline;
+  background-color: #EFF0F1;
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+#content pre {
+  display: block;
+  background-color: #EFF0F1;
+  font-family: 'Ubuntu Mono', monospace;
+  word-wrap: break-word;
+  padding: 1%;
+}
+
+/********************* Horizontal Line *****************************/
+
+.con-hr {
+  opacity: 0.6;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 100%;
+}
+
+/********************* Table *****************************/
+
+th {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+th:nth-child(1) {
+  border-radius: 10px 0px 0px 0px;
+}
+
+th:nth-child(2) {
+  border-radius: 0px 10px 0px 0px;
+}
+
+table {
+  width: 100%;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+
+tr {
+  height: 30px;
+}
+
+tbody > tr:hover {
+  outline: solid #00CCCC 1px;
+}
+
+td {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+tr:nth-child(odd) {
+  background-color: #F8F8F8;
+}
+
+tr:nth-child(even) {
+  background-color: white;
+}
+
+td:nth-child(2) {
+  /* Make table grow/algin from left. */
+  width: 100%;
+}
+
+/********************* Search *****************************/
+
+#search-result-block {
+
+}
+
+.search-result-one {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}

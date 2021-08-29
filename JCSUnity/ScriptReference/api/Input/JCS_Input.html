@@ -1,0 +1,313 @@
+<h1 id="jcs_input">JCS_Input</h1>
+<p>Rewrap Input from Unity Engine and add more functionalities.</p>
+<h2 id="functions">Functions</h2>
+<table>
+<thead>
+<tr>
+<th id="name" style="text-align:left;">Name</th>
+<th id="description" style="text-align:left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">OnMouseDoubleClick</td>
+<td style="text-align:left;">Check if the user double clicking?</td>
+</tr>
+<tr>
+<td style="text-align:left;">OnMouseDrag</td>
+<td style="text-align:left;">s the mouse dragging right now?</td>
+</tr>
+<tr>
+<td style="text-align:left;">MouseDeltaPosition</td>
+<td style="text-align:left;">Return mouse delta position between frame to frame.</td>
+</tr>
+<tr>
+<td style="text-align:left;">CanvasMousePosition</td>
+<td style="text-align:left;">Get the mouse position on canvas space.</td>
+</tr>
+<tr>
+<td style="text-align:left;">MousePositionOnGUILayer</td>
+<td style="text-align:left;">Returns the mouse position on GUI layer.</td>
+</tr>
+<tr>
+<td style="text-align:left;">MousePosition0To1</td>
+<td style="text-align:left;">Return mouse position between 0 to 1.</td>
+</tr>
+<tr>
+<td style="text-align:left;">GetMouseByAction</td>
+<td style="text-align:left;">Get the mouse state by passing it the action.</td>
+</tr>
+<tr>
+<td style="text-align:left;">GetMouseButtonDown</td>
+<td style="text-align:left;">Check if the mouse button is down.</td>
+</tr>
+<tr>
+<td style="text-align:left;">GetMouseButton</td>
+<td style="text-align:left;">Check if the mouse button is pressed.</td>
+</tr>
+<tr>
+<td style="text-align:left;">GetMouseButtonUp</td>
+<td style="text-align:left;">Check if the mouse button is up.</td>
+</tr>
+<tr>
+<td style="text-align:left;">GetKeyByAction</td>
+<td style="text-align:left;">Check if the key is down by key action type.</td>
+</tr>
+<tr>
+<td style="text-align:left;">GetKeyDown</td>
+<td style="text-align:left;">Is the key down?</td>
+</tr>
+<tr>
+<td style="text-align:left;">GetKey</td>
+<td style="text-align:left;">Is the key held down?</td>
+</tr>
+<tr>
+<td style="text-align:left;">GetKeyUp</td>
+<td style="text-align:left;">Is the key up?</td>
+</tr>
+<tr>
+<td style="text-align:left;">GetButtonByAction</td>
+<td style="text-align:left;">Get the boolean check depends on the button status.</td>
+</tr>
+<tr>
+<td style="text-align:left;">GetButton</td>
+<td style="text-align:left;">Is the button pressed?</td>
+</tr>
+<tr>
+<td style="text-align:left;">GetButtonDown</td>
+<td style="text-align:left;">Is the button down?</td>
+</tr>
+<tr>
+<td style="text-align:left;">GetButtonUp</td>
+<td style="text-align:left;">Is the button up?</td>
+</tr>
+<tr>
+<td style="text-align:left;">GetAnyKeyByAction</td>
+<td style="text-align:left;">Check if any key is down/up/pressed.</td>
+</tr>
+<tr>
+<td style="text-align:left;">IsAnyKeyBuffer</td>
+<td style="text-align:left;">Check if any key is sent the input signal.</td>
+</tr>
+<tr>
+<td style="text-align:left;">GetAnyKeyDown</td>
+<td style="text-align:left;">Check if any key is down.</td>
+</tr>
+<tr>
+<td style="text-align:left;">GetAnyKey</td>
+<td style="text-align:left;">Check if any key is pressed.</td>
+</tr>
+<tr>
+<td style="text-align:left;">GetAnyKeyUp</td>
+<td style="text-align:left;">Check if any key is up.</td>
+</tr>
+<tr>
+<td style="text-align:left;">GetAxis</td>
+<td style="text-align:left;">Return the joystick buffer.</td>
+</tr>
+<tr>
+<td style="text-align:left;">GetJoystickButton</td>
+<td style="text-align:left;">Check if the button have pressed.</td>
+</tr>
+<tr>
+<td style="text-align:left;">GetJoystickKey</td>
+<td style="text-align:left;">Check if joystick id, pressed the key?</td>
+</tr>
+<tr>
+<td style="text-align:left;">GetJoystickKeyUp</td>
+<td style="text-align:left;">Check if joystick id, up the key?</td>
+</tr>
+<tr>
+<td style="text-align:left;">GetJoystickKeyDown</td>
+<td style="text-align:left;">Check if joystick id, down the key?</td>
+</tr>
+<tr>
+<td style="text-align:left;">GetJoystickKeyByAction</td>
+<td style="text-align:left;">Check if the joystick key is doing something by these certain events.</td>
+</tr>
+<tr>
+<td style="text-align:left;">IsJoystickConnected</td>
+<td style="text-align:left;">Check if there is joy stick connect to the pc.</td>
+</tr>
+<tr>
+<td style="text-align:left;">OneKeys</td>
+<td style="text-align:left;">Check either of these key are preseed.</td>
+</tr>
+<tr>
+<td style="text-align:left;">OneKeysDown</td>
+<td style="text-align:left;">Check either of these key are down.</td>
+</tr>
+<tr>
+<td style="text-align:left;">OneKeysUp</td>
+<td style="text-align:left;">Check either of these key are up.</td>
+</tr>
+<tr>
+<td style="text-align:left;">AllKeys</td>
+<td style="text-align:left;">Check all of these key are preseed.</td>
+</tr>
+<tr>
+<td style="text-align:left;">AllKeysDown</td>
+<td style="text-align:left;">Check all of these key are down.</td>
+</tr>
+<tr>
+<td style="text-align:left;">AllKeysUp</td>
+<td style="text-align:left;">Check all of these key are up.</td>
+</tr>
+<tr>
+<td style="text-align:left;">OneJoystickButtons</td>
+<td style="text-align:left;">Check either of these key are preseed.</td>
+</tr>
+<tr>
+<td style="text-align:left;">OneJoystickKeysDown</td>
+<td style="text-align:left;">Check either of these key are down.</td>
+</tr>
+<tr>
+<td style="text-align:left;">OneJoystickKeysUp</td>
+<td style="text-align:left;">Check either of these key are up.</td>
+</tr>
+<tr>
+<td style="text-align:left;">AllJoystickButtons</td>
+<td style="text-align:left;">Check all of these key are preseed.</td>
+</tr>
+<tr>
+<td style="text-align:left;">AllJoystickKeysDown</td>
+<td style="text-align:left;">Check all of these key are down.</td>
+</tr>
+<tr>
+<td style="text-align:left;">AllJoystickKeysUp</td>
+<td style="text-align:left;">Check all of these key are up.</td>
+</tr>
+<tr>
+<td style="text-align:left;">OneCtrlKey</td>
+<td style="text-align:left;">Is one the ctrl key pressed?</td>
+</tr>
+<tr>
+<td style="text-align:left;">OneCtrlKeyDown</td>
+<td style="text-align:left;">Is one the ctrl key down?</td>
+</tr>
+<tr>
+<td style="text-align:left;">OneCtrlKeyUp</td>
+<td style="text-align:left;">Is one the ctrl key up?</td>
+</tr>
+<tr>
+<td style="text-align:left;">GetKeyWithCtrl</td>
+<td style="text-align:left;">Is key pressed with the control key?</td>
+</tr>
+<tr>
+<td style="text-align:left;">GetKeyDownWithCtrl</td>
+<td style="text-align:left;">Is key down with the control key?</td>
+</tr>
+<tr>
+<td style="text-align:left;">GetKeyUpWithCtrl</td>
+<td style="text-align:left;">Is key up with the control key?</td>
+</tr>
+<tr>
+<td style="text-align:left;">OneAltKey</td>
+<td style="text-align:left;">Is one the alt key pressed?</td>
+</tr>
+<tr>
+<td style="text-align:left;">OneAltKeyDown</td>
+<td style="text-align:left;">Is one the alt key down?</td>
+</tr>
+<tr>
+<td style="text-align:left;">OneAltKeyUp</td>
+<td style="text-align:left;">Is one the alt key up?</td>
+</tr>
+<tr>
+<td style="text-align:left;">GetKeyWithAlt</td>
+<td style="text-align:left;">Is key pressed with the alt key?</td>
+</tr>
+<tr>
+<td style="text-align:left;">GetKeyDownWithAlt</td>
+<td style="text-align:left;">Is key down with the alt key?</td>
+</tr>
+<tr>
+<td style="text-align:left;">GetKeyUpWithAlt</td>
+<td style="text-align:left;">Is key up with the alt key?</td>
+</tr>
+<tr>
+<td style="text-align:left;">OneShiftKey</td>
+<td style="text-align:left;">Is one the shift key pressed?</td>
+</tr>
+<tr>
+<td style="text-align:left;">OneShiftKeyDown</td>
+<td style="text-align:left;">Is one the shift key down?</td>
+</tr>
+<tr>
+<td style="text-align:left;">OneShiftKeyUp</td>
+<td style="text-align:left;">Is one the shift key up?</td>
+</tr>
+<tr>
+<td style="text-align:left;">GetKeyWithShift</td>
+<td style="text-align:left;">Is key pressed with the shift key?</td>
+</tr>
+<tr>
+<td style="text-align:left;">GetKeyDownWithShift</td>
+<td style="text-align:left;">Is key down with the shift key?</td>
+</tr>
+<tr>
+<td style="text-align:left;">GetKeyUpWithShift</td>
+<td style="text-align:left;">Is key up with the shift key?</td>
+</tr>
+<tr>
+<td style="text-align:left;">GetKeyWithCtrlShift</td>
+<td style="text-align:left;">Check if the 'key' and the ctrl and shift key is pressed.</td>
+</tr>
+<tr>
+<td style="text-align:left;">GetKeyDownWithCtrlShift</td>
+<td style="text-align:left;">Check if the 'key' and the ctrl and shift key is down.</td>
+</tr>
+<tr>
+<td style="text-align:left;">GetKeyUpWithCtrlShift</td>
+<td style="text-align:left;">Check if the 'key' and the ctrl and shift key is up.</td>
+</tr>
+<tr>
+<td style="text-align:left;">GetKeyWithAltCtrl</td>
+<td style="text-align:left;">Check if the 'key' and the ctrl and alt key is pressed.</td>
+</tr>
+<tr>
+<td style="text-align:left;">GetKeyDownWithAltCtrl</td>
+<td style="text-align:left;">Check if the 'key' and the ctrl and alt key is down.</td>
+</tr>
+<tr>
+<td style="text-align:left;">GetKeyUpWithAltCtrl</td>
+<td style="text-align:left;">Check if the 'key' and the ctrl and alt key is up.</td>
+</tr>
+<tr>
+<td style="text-align:left;">GetKeyWithAltShift</td>
+<td style="text-align:left;">Check if the 'key' and the alt and shift key is pressed.</td>
+</tr>
+<tr>
+<td style="text-align:left;">GetKeyDownWithAltShift</td>
+<td style="text-align:left;">Check if the 'key' and the alt and shift key is down.</td>
+</tr>
+<tr>
+<td style="text-align:left;">GetKeyUpWithAltShift</td>
+<td style="text-align:left;">Check if the 'key' and the alt and shift key is up.</td>
+</tr>
+<tr>
+<td style="text-align:left;">GetKeyWithAltCtrlShift</td>
+<td style="text-align:left;">Check if the 'key', alt, shift and ctrl key is pressed.</td>
+</tr>
+<tr>
+<td style="text-align:left;">GetKeyDownWithAltCtrlShift</td>
+<td style="text-align:left;">Check if the 'key', alt, shift and ctrl key is down.</td>
+</tr>
+<tr>
+<td style="text-align:left;">GetKeyUpWithAltCtrlShift</td>
+<td style="text-align:left;">Check if the 'key', alt, shift and ctrl key is up.</td>
+</tr>
+<tr>
+<td style="text-align:left;">GetKeyWith</td>
+<td style="text-align:left;">Get key with certain combination.</td>
+</tr>
+<tr>
+<td style="text-align:left;">GetKeyDownWith</td>
+<td style="text-align:left;">Get key down with certain combination.</td>
+</tr>
+<tr>
+<td style="text-align:left;">GetKeyUpWith</td>
+<td style="text-align:left;">Get key up with certain combination.</td>
+</tr>
+</tbody>
+</table>

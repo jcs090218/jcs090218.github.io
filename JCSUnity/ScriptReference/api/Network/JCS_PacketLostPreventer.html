@@ -1,0 +1,47 @@
+<h1 id="jcs_packetlostpreventer">JCS_PacketLostPreventer</h1>
+<p>Prevent the packet have been lost. If the packet is lost we<br />
+keep tracking the packet and resend the responed until the<br />
+server's response had arrived. This usually deal with the<br />
+UDP type communication.</p>
+<h2 id="variables">Variables</h2>
+<table>
+<thead>
+<tr>
+<th id="name" style="text-align:left;">Name</th>
+<th id="description" style="text-align:left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">mResendTime</td>
+<td style="text-align:left;">Interval the packet resend.</td>
+</tr>
+<tr>
+<td style="text-align:left;">mWaitingPacketIds</td>
+<td style="text-align:left;">Packet's ID that are still waiting for resend/process.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="functions">Functions</h2>
+<table>
+<thead>
+<tr>
+<th id="name" style="text-align:left;">Name</th>
+<th id="description" style="text-align:left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">AddTrack</td>
+<td style="text-align:left;">Track this packet. If the packet does not responed. keep sending the packet until the packet responed by the server.</td>
+</tr>
+<tr>
+<td style="text-align:left;">IsPreventing</td>
+<td style="text-align:left;">Check if this preventer still preventing any data packet lost issue.</td>
+</tr>
+<tr>
+<td style="text-align:left;">ClearTracking</td>
+<td style="text-align:left;">Clear all tracking packets.</td>
+</tr>
+</tbody>
+</table>
